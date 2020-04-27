@@ -1,0 +1,51 @@
+#LForm{
+    height: 474px;
+    width: 320px;
+    background-color: rgb(179, 8, 8);
+    border: 1px solid red;
+    margin-top: 90px;
+    margin-left: 520px;
+    margin-bottom: 90px;
+}
+#LForm h3{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+#LForm form{
+    margin-top: 80px;
+    margin-left: 68px;
+}
+#email {
+    margin-top: 15px;
+    padding: 6px 12px;
+    text-align: center;
+    background: url('images/email.png') no-repeat left;
+    background-color: white;
+}
+#pw{
+    margin-top: 15px;
+    padding: 6px 12px;
+    text-align: center;
+    background: url('images/password.png') no-repeat left;
+    background-color: white;
+}
+#rm1{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#rm2{
+    color: white;
+}
+#btnlogin{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 78%;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#btnlogin:hover{
+    opacity: 1;
+}

@@ -1,0 +1,50 @@
+#RForm{
+    height: 474px;
+    width: 400px;
+    background-color: rgb(179,8,8);
+    border: 1px solid red;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 500px;
+}
+#RForm h3{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+#RForm form{
+    margin-top: 60px;
+}
+#term ,#acc{
+    text-align: center;
+    margin-top: 15px;
+}
+#name{
+    margin-left: 105px;
+    padding: 6px 12px;
+    text-align: center;
+    background: url('images/user.png') no-repeat left;
+    background-color: white;
+}
+#email{
+    margin-left: 105px;
+    margin-top: 15px;
+    padding: 6px 12px;
+    text-align: center;
+    background: url('images/email.png') no-repeat left;
+    background-color: white;
+}
+#pw , #pw2{
+    margin-left: 105px;
+    margin-top: 15px;
+    padding: 6px 12px;
+    text-align: center;
+    background: url('images/password.png') no-repeat left;
+    background-color: white;
+}
+#Registerbtn{
+    width: 50%;
+    height: 30px;
+    margin-left: 105px;
+    margin-top: 15px;
+}

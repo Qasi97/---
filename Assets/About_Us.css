@@ -1,0 +1,150 @@
+*{
+    margin: auto;
+}
+.dash{
+    color: white;
+}
+body{
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(179, 8, 8);
+    height: 40px;
+    overflow: hidden;
+    padding-top: 10px;
+    border: 2px solid red;
+}
+header h3{
+    font-family: serif;
+    float: left;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+header h3 a, header h3 a:hover{
+    color: white;
+}
+header nav{
+    float: right;
+    padding-top: 5px;
+}
+header nav ul li{
+    float: left;
+    padding-right: 10px;
+    font-size: larger;
+}
+#aboutus{
+    overflow: hidden;
+    float: left;
+    height: 630px;
+    background-color: black;
+    width: 100%;
+    padding-top: 40px;
+}
+#aboutus h1{
+    text-align: center;
+    color: white;
+}
+#aboutus ul{
+    overflow: hidden;
+}
+#aboutus ul li{
+    float: left;
+    border: 1px solid red;
+    height: 200px;
+    width: 270px;
+    margin-top: 20px;
+    padding-top: 260px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#aboutus ul li h3{
+    text-align: center;
+    color: black;
+    padding-bottom: 25px;
+}
+#aboutus ul li p{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+#dev{
+    background: url('images/dev.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+    margin-left: 345px;
+}
+#supp{
+    background: url('images/supp.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+footer{
+    overflow: hidden;
+    height: 325px;
+    width: 100%;
+    padding-top: 20px;
+    background: rgb(179, 8, 8);
+    border: 1px solid red;
+}
+#footer1{
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#footer1 ul{
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+}
+#footer1 h4{
+    color: black;
+}
+#footer1 ul li{
+    padding-top: 10px;
+}
+#footer2{
+    overflow: hidden;
+    margin-right: 530px;
+}
+#footer2 ul{
+    float: right;
+    text-align: center;
+}
+#footer2 ul li{
+    float: left;
+    padding-right: 30px;
+    color: white;
+}
+#compinfo h4{
+    color: black;
+    text-align: left;
+}
+#compinfo p{
+    color: white;
+    padding-top: 2px;
+    text-align: left;
+    font-size: 19px;
+}
+#copyright{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.icons{
+    margin-top: 50px;
+    width: 55px;
+    height: 55px;
+}

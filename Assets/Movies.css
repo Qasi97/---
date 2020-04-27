@@ -1,0 +1,207 @@
+*{
+    margin: auto;
+}
+.dash{
+    color: white;
+}
+body{
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(179, 8, 8);
+    height: 40px;
+    overflow: hidden;
+    padding-top: 10px;
+    border: 2px solid red;
+}
+header h3{
+    font-family: serif;
+    float: left;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+header h3 a, header h3 a:hover{
+    color: white;
+}
+header nav{
+    float: right;
+    padding-top: 5px;
+}
+header nav ul li{
+    float: left;
+    padding-right: 10px;
+    font-size: larger;
+}
+#TopM{
+    overflow: hidden;
+    float: left;
+    height: 1500px;
+    background-color: black;
+    width: 100%;
+    padding-top: 40px;
+}
+#TopM h1{
+    text-align: center;
+    color: white;
+}
+#TopM ul{
+    overflow: hidden;
+}
+#TopM ul li{
+    float: left;
+    border: 1px solid red;
+    height: 200px;
+    width: 270px;
+    margin-top: 20px;
+    padding-top: 260px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#TopM ul li h3{
+    text-align: center;
+    color: white;
+}
+#TopM ul li p{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+#M1{
+    background: url('images/Movies/f&f.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M2{
+    background: url('images/Movies/b&b.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M3{
+    background: url('images/Movies/m&m.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M4{
+    background: url('images/Movies/blood.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M5{
+    background: url('images/Movies/b&y.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M6{
+    background: url('images/Movies/e&b.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M7{
+    background: url('images/Movies/t&q.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M8{
+    background: url('images/Movies/f&i.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M9{
+    background: url('images/Movies/sonic.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M10{
+    background: url('images/Movies/j&h.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M11{
+    background: url('images/Movies/res.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+#M12{
+    background: url('images/Movies/e&f&p.png') no-repeat top center;
+    background-size: 200px 200px;
+    background-color: rgb(179, 8, 8);
+    background-position-y: 12px;
+}
+footer{
+    overflow: hidden;
+    height: 325px;
+    padding-top: 20px;
+    background: rgb(179, 8, 8);
+    border: 1px solid red;
+}
+#footer1{
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#footer1 ul{
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+}
+#footer1 h4{
+    color: black;
+}
+#footer1 ul li{
+    padding-top: 10px;
+}
+#footer2{
+    overflow: hidden;
+    margin-right: 530px;
+}
+#footer2 ul{
+    float: right;
+    text-align: center;
+}
+#footer2 ul li{
+    float: left;
+    padding-right: 30px;
+    color: white;
+}
+#compinfo h4{
+    color: black;
+    text-align: left;
+}
+#compinfo p{
+    color: white;
+    padding-top: 2px;
+    text-align: left;
+    font-size: 19px;
+}
+#copyright{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.icons{
+    margin-top: 50px;
+    width: 55px;
+    height: 55px;
+}
